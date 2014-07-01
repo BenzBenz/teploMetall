@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,700&subset=latin,cyrillic-ext,cyrillic);
+
+#header{background:#f7f8f8;height: 115px; position: fixed; width: 100%; top: 0; z-index: 999; border-bottom: 1px solid #e1e1e1;}
+#footer{  height:50px;  border-top: 1px solid #e1e1e1;vertical-align:middle;}
+#bodyMain{padding-top:130px;}
+.sidebar{background:#666;margin:0; padding:5px;}
+.news{width: 600px;border:1px solid red;}
+.logo-cover { margin:  5px 0px 5px 20px;width: 277px;}
+.header-nav {display:block;position:static; width:310px; margin-left: 0px;}
+.header-contact {display:block;position:static; width:260px; margin-left: -20px;float:right;}
+.header-black {color:Black;}
+.nav-list {margin-top:7px}
+.phone {font-size: 20px;color: #222;line-height: 40px;margin-left: 40px; margin-top:-4px; float: left;}
+.mail {font-size: 20px;color: #222;line-height: 40px;margin-left: 39px;margin-top: -20px;float: left;}
+.header-button{width:130px;} 
+        
+.carousel-indicators li { background-color: #999;}
+.carousel-indicators .active {background-color: #444;}
+.banner-caption{color:White;font-family: Roboto,'Helvetica Neue', Helvetica, Arial, sans-serif;}
+.visual_content { width: 100%;  text-align: center;  float: none; margin: 0 auto;  padding-top: 20px; color: #232323; }
+h2{font-family:'Roboto',Helvetica,Arial,sans-serif;font-weight:300;-webkit-font-smoothing:antialiased; }
+
+#hover-cap-4col .thumbnail {
+    position:relative;
+    overflow:hidden;     
+    max-height:200px;
+}
+.caption {display: none;position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.4);width: 100%;height: 100%;color:#fff !important; text-align:center; cursor:pointer;}
+.caption img{margin-top:55px;}
+.caption div.controls{ margin-top:30px;}
+.help-block {margin-top: 2px !important; margin-left: 5px; color: #A2A2A2;}
+#IWontDlg .modal-body{max-height:1280px;}
+
+.modal-body h4 {font-weight:normal;}
+ #bigProductDlg .modal-body{max-width:1280px; max-height:1024px; }
+.mailDescription{float: left; vertical-align: bottom; padding-top: 120px;margin-left: 15px;}
+.middleIcon {width:32px;height:32px;}
+.dotted{border-bottom-color: rgb(0, 0, 0); border-bottom-style: dotted; border-bottom-width: 1px; border-collapse: collapse;cursor:pointer;}
+.mapAddress{height:30px; width:560px; border-left:2px solid #cc0033;  padding-left:10px;margin-bottom:10px; }
+.icons__icon {display: inline-block;vertical-align: top;}
+.icons__title {display: block;margin-top: 14px;font-size: 21px;line-height: 24px;text-align:center;}
+
+.howPrice-descr{margin-top:20px;}
+.textXL{font-size:x-large;}
