@@ -8,8 +8,8 @@ public class Handler : IHttpHandler {
     public void ProcessRequest (HttpContext context) {
         context.Response.ContentType = "text/plain";
 
-        var dataArray = context.Request.QueryString["data"].Split(new string[] {"^^^"},
-                                                                  StringSplitOptions.RemoveEmptyEntries);
+        string[] dataArray = context.Request.QueryString["data"].Split(new string[] {"^^^"},
+                                                                  StringSplitOptions.None);
         
         context.Response.Write("0");
     }
